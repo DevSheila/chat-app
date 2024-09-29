@@ -1,36 +1,78 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Wanderlust
+
+Wanderlust is a real-time chat web app built with Next.js, Clerk, Convex, Livekit, Uploadthing, Shadcn UI, and Tailwind CSS.
+
+## Table of Contents
+
+1. [Features](#features)
+2. [Technologies Used](#technologies-used)
+2. [Technologies Used](#technologies-used)
+3. [Getting Started](#getting-started)
+   - [Clone the repository](#clone-the-repository)
+   - [Install dependencies](#install-dependencies)
+   - [Set up environment variables](#set-up-environment-variables)
+   - [Run the development server](#run-the-development-server)
+
+
+## Features
+
+- **User Authentication and Management**: The app integrates Clerk to enable seamless user authentication, including signup, login, and managing user sessions. The system also ensures secure access to chat functionalities.
+
+- **Real-Time Communication**: Powered by Livekit, the app supports real-time video and voice communication between users, making conversations feel natural and engaging.
+
+- **Friends and Group Conversations**: Users can add friends to their contact list and start one-on-one conversations. The app also supports creating and managing group chats, allowing multiple participants to engage in real-time discussions.
+
+- **Conversations with Read Receipts**: The app features read receipts, so users can see when their messages have been viewed by others, improving communication flow and user experience.
+
+- **File Uploads within Chats**: Uploadthing enables users to upload and share files directly within conversations, making it easy to share images, documents, and other media in both one-on-one and group chats.
+
+- **Responsive UI & Dark Mode**: Built with Shadcn UI and Tailwind CSS, the application offers a modern, responsive design that adapts to various screen sizes. It also includes a dark mode option for users who prefer a darker theme.
+
+- **Database & Scalable Backend**: Using Convex, the app is backed by a scalable database architecture, allowing for reliable real-time messaging and chat history storage, even as the user base grows.
+
+- **Layout and Navigation**: The app includes a well-structured layout with intuitive navigation, ensuring a seamless user experience as users switch between conversations, manage contacts, and access settings.
+
+- **Deployment Ready**: The project is fully deployable to production environments, with comprehensive setup instructions for smooth deployment to platforms like Vercel.
+
+
+
+## Technologies Used
+
+- **Next.js**: React framework for server-side rendering and routing.
+- **Clerk**: Handles authentication and user management.
+- **Convex**: Provides backend infrastructure for scalable real-time chat features.
+- **Livekit**: Powers real-time video and voice communication capabilities.
+- **Uploadthing**: Manages file uploads and attachments in chats.
+- **Shadcn UI**: Component library for building accessible and themeable UIs.
+- **Tailwind CSS**: Utility-first CSS framework for styling.
 
 ## Getting Started
 
-First, run the development server:
+To get a local copy up and running, follow these simple steps:
+
+- Clone the repository:
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone https://github.com/DevSheila/chat-app
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- go to project directory
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+cd chat-app
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+- install dependencies
+```bash
+npm install
+```
 
-## Learn More
+- run app
+```bash
+npm run dev
+```
+- run convex to create tables and functions
+```bash
+npx convex dev
+```
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
