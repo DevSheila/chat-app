@@ -3,11 +3,11 @@
 @tailwind utilities;
 
 html,
-body{
-  height:100%;
-  overflow:hidden;
+body {
+  height: 100%;
+  overflow: hidden;
 }
-
+ 
 @layer base {
   :root {
     --background: 0 0% 100%;
@@ -65,7 +65,6 @@ body{
   }
 }
 
-
 @layer base {
   * {
     @apply border-border;
@@ -74,3 +73,18 @@ body{
     @apply bg-background text-foreground;
   }
 }
+
+@layer utilities {
+  /* Chrome, Opera, Safari */
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  /* Edge, Firefox, IE */
+  .no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+}
+
+
+@import "~@uploadthing/react/styles.css";

@@ -1,7 +1,9 @@
+
+
 export default {
     providers: [
       {
-        domain: "https://related-ocelot-93.clerk.accounts.dev", //issue from  clerk
+        domain: "https://related-ocelot-93.clerk.accounts.dev",
         applicationID: "convex",
       },
     ]
