@@ -74,11 +74,11 @@ NEXT_PUBLIC_LIVEKIT_URL=
 This project uses Convex as a backend service and Clerk for user authentication. Follow the steps below to configure and set up both services.
 
 
-## 1. Set up Convex
+### 1. Set up Convex
 
 Follow the [Convex NextJS Quickstart Guide](https://docs.convex.dev/quickstart/nextjs) and [Convex Clerk Quickstart Guide](https://docs.convex.dev/auth/clerk) to create and deploy a Convex backend. After completing the setup, you will receive a Convex URL, which you'll use in your client-side configuration.
 
-## 2. Set up Clerk
+### 2. Set up Clerk
 
 ### Sign up for Clerk
 1. Go to [Clerk](https://clerk.dev) and sign up for an account.
@@ -94,7 +94,7 @@ Follow the [Convex NextJS Quickstart Guide](https://docs.convex.dev/quickstart/n
 ### Copy the Issuer URL
 1. From the JWT template, copy the **Issuer URL**. You will need this for configuring the Convex backend.
 
-## 3. Configure Convex for Clerk Authentication
+### 3. Configure Convex for Clerk Authentication
 
 ### Create `auth.config.ts` in Convex
 In the Convex project directory, create a file named `auth.config.ts` with the following content:
@@ -109,7 +109,7 @@ export default {
   ],
 };
 ```
-## 4. Creating a Clerk Webhook Secret
+### 4. Creating a Clerk Webhook Secret
 
 - Generate a Webhook Secret
 In the Clerk dashboard, navigate to the Webhooks section and create a new webhook. Generate a secret token for this webhook.
