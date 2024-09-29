@@ -48,6 +48,27 @@ Wanderlust is a real-time chat web app built with Next.js, Clerk, Convex, Liveki
 
 ## Environment Setup
 
+Based on .en.example file , update env variables.
+
+```bash
+# ENVIRONMENT
+NODE_ENV=
+
+# CONVEX
+CONVEX_DEPLOYMENT=
+NEXT_PUBLIC_CONVEX_URL=
+
+# CLERK
+NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=
+CLERK_SECRET_KEY=
+CLERK_WEBHOOK_SECRET=
+
+# LIVEKIT
+LIVEKIT_API_KEY=
+LIVEKIT_API_SECRET=
+NEXT_PUBLIC_LIVEKIT_URL=
+
+```
 ## Convex + Clerk Authentication Setup
 
 This project uses Convex as a backend service and Clerk for user authentication. Follow the steps below to configure and set up both services.
