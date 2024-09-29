@@ -6,12 +6,8 @@ Wanderlust is a real-time chat web app built with Next.js, Clerk, Convex, Liveki
 
 1. [Features](#features)
 2. [Technologies Used](#technologies-used)
-2. [Technologies Used](#technologies-used)
 3. [Getting Started](#getting-started)
-   - [Clone the repository](#clone-the-repository)
-   - [Install dependencies](#install-dependencies)
-   - [Set up environment variables](#set-up-environment-variables)
-   - [Run the development server](#run-the-development-server)
+
 
 
 ## Features
