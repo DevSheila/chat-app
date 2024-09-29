@@ -64,10 +64,12 @@ npm install
 ```
 
 - run app
+
 ```bash
 npm run dev
 ```
 - run convex to create tables and functions
+
 ```bash
 npx convex dev
 ```
