@@ -8,6 +8,7 @@ type Props = {
   type: "image" | "file";
 };
 
+
 const Uploader = ({ type, onChange }: Props) => {
   return (
     <UploadDropzone
