@@ -1,11 +1,10 @@
 # Wanderlust
 
-Wanderlust is a real-time chat web app built with Next.js, Clerk, Convex, Livekit, Uploadthing, Shadcn UI, and Tailwind CSS.
+Wanderlust is a real-time chat web app .
 
 ## Table of Contents
 
 1. [Features](#features)
-2. [Technologies Used](#technologies-used)
 3. [Environment Setup](#environment-setup)
     - [Set up Convex](#set-up-convex)
     - [Set up Clerk](#set-up-clerk)
@@ -35,20 +34,9 @@ Wanderlust is a real-time chat web app built with Next.js, Clerk, Convex, Liveki
 - **Deployment Ready**: The project is fully deployable to production environments, with comprehensive setup instructions for smooth deployment to platforms like Vercel.
 
 
-
-## Technologies Used
-
-- **Next.js**: React framework for server-side rendering and routing.
-- **Clerk**: Handles authentication and user management.
-- **Convex**: Provides backend infrastructure for scalable real-time chat features.
-- **Livekit**: Powers real-time video and voice communication capabilities.
-- **Uploadthing**: Manages file uploads and attachments in chats.
-- **Shadcn UI**: Component library for building accessible and themeable UIs.
-- **Tailwind CSS**: Utility-first CSS framework for styling.
-
 ## Environment Setup
 
-Based on .en.example file , update env variables.
+Based on .env.example file , update env variables.
 
 ```bash
 # ENVIRONMENT
